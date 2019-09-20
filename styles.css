@@ -25,14 +25,16 @@ header {
 .logo {
     cursor: pointer;
     order: 3;
-    margin-left: auto;
-    width: 40%;
+    margin-right: -80px;
     padding-bottom: 9px;
+    width: 10%;
+
 
 }
 
 nav {
     order: 1;
+    margin-left: -45px;
 }
 
 .nav__links {
@@ -41,11 +43,12 @@ nav {
 
 .nav__links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 20px 30px;
+    margin-left: -15px;
 }
 
 .nav__links li:nth-child(1) {
-    padding: 0 20px 0 0;
+    padding: 0 30px 0 0;
 }
 
 .nav__links li a {
