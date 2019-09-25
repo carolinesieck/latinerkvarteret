@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #eeeeee;
+  font-family: "Montserrat", serif;
+
+}
+
+.flag {
+
+width: 3%;
+}
+
+/* Vores søge loop */
+button {
+  float: left;
+  padding: 6px 1px;
+  margin-top: -2px;
+  margin-right: 50px;
+  background: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background: #ccc;
+
+}
+
+.logo {
+
+  width: 10%;
+  cursor: pointer;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+}
+
+.nav-links li {
+  list-style: none;
+  margin-left: -20px;
+}
+.nav-links a{
+  color: black;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-top: 30px;
+
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  margin: 5px;
+}
+
+
+@media screen and (max-width:1200px) {
+  .nav-links{
+    width: 67%;
+  }
+}
+
+@media screen and (max-width:1020px) {
+  .nav-links a{
+    background-color;
+    font-size: 11px;
+    width: 75%;
+}
+}
+
+@media screen and (max-width:800px) {
+  .nav-links a{
+    background-color;
+    font-size: 11px;
+    width: 80%;
+}
+}
+
+
+
+@media screen and (max-width:790px) {
+
+  .flag {
+    display: none;
+  }
+
+  button {
+    display: none;
+  }
+
+  .logo {
+
+    width: 15%;
+  }
+
+  body{
+    overflow-x: hidden;
+
+  }
+  .nav-links{
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+
+  }
+  .nav-links li{
+    opacity: 0;
+  }
+  .burger {
+
+    display: block;
+    cursor: pointer;
+  }
+}
