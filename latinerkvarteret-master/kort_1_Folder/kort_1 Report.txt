@@ -1,0 +1,111 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: kort_1.ai
+Color Mode: CMYK color
+Color Profile: Coated FOGRA39 (ISO 12647-2:2004)
+Ruler Units: millimeters
+Artboard Dimensions: 105 mm x 148 mm
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Avenir Next Condensed Regular (TrueType)
+Myriad Pro (OTF)
+Abadi MT Condensed Extra Bold (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Brugere/carolinesieckhopner/Skrivebord/Sk¾rmbillede 2019-09-17 kl. 19.33.47
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1202K, 1384 by 178 pixels
+Dimensions: 255,119 by 32,812 points 
+Resolution: 390,594 by 390,594 pixels per inch
+
+
+/Brugere/carolinesieckhopner/Dokumenter/OneDrive/MMD/2. semester/LK_projekt4/html/latinerkvarteret/images/logo_lk.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 8650K, 3508 by 505 pixels
+Dimensions: 155,448 by 22,378 points 
+Resolution: 1624,824 by 1624,824 pixels per inch
+
+
+/Brugere/carolinesieckhopner/Overf¿rsler/facebook (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1280K, 512 by 512 pixels
+Dimensions: 10,59 by 10,59 points 
+Resolution: 3480,981 by 3480,981 pixels per inch
+
+
+/Brugere/carolinesieckhopner/Overf¿rsler/instagram (1).png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1280K, 512 by 512 pixels
+Dimensions: 10,931 by 10,931 points 
+Resolution: 3372,291 by 3372,291 pixels per inch
+
+
+/Brugere/carolinesieckhopner/Overf¿rsler/toilet.png
+Type: Transparent Grayscale
+Bits per Pixel: 17
+Channels: 2
+Size: 128K, 256 by 256 pixels
+Dimensions: 15,585 by 15,585 points 
+Resolution: 1182,665 by 1182,665 pixels per inch
+
+
+/Brugere/carolinesieckhopner/Overf¿rsler/toilet.png
+Type: Transparent Grayscale
+Bits per Pixel: 17
+Channels: 2
+Size: 128K, 256 by 256 pixels
+Dimensions: 7,777 by 7,659 points 
+Resolution: 2369,919 by 2406,725 pixels per inch
+
+
+/Brugere/carolinesieckhopner/Skrivebord/Sk¾rmbillede 2019-09-16 kl. 14.15.39
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 14464K, 2224 by 1332 pixels
+Dimensions: 718,684 by 410,649 points 
+Resolution: 222,807 by 233,542 pixels per inch
+
+
+/Brugere/carolinesieckhopner/Skrivebord/Sk¾rmbillede 2019-09-16 kl. 14.14.38
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 12496K, 2054 by 1246 pixels
+Dimensions: 711,951 by 412,032 points 
+Resolution: 207,722 by 217,73 pixels per inch
