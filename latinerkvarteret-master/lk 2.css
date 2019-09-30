@@ -39,6 +39,8 @@ button {
 
 }
 
+
+
 .logo {
 
   width: 10%;
@@ -58,19 +60,14 @@ button {
   margin-left: -20px;
 }
 .nav-links a{
-  color: #057E7E;
+  color: black;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 14px;
   margin-right: 20px;
   margin-top: 30px;
-}
 
-
-
-a:hover{
-	text-decoration: underline;
 }
 
 .burger {
@@ -112,6 +109,9 @@ a:hover{
     width: 80%;
 }
 }
+
+
+
 @media screen and (max-width:790px) {
 
   .flag {
@@ -201,6 +201,8 @@ a:hover{
 
 
 /* -------------------------slideshow style---------------------------*/
+
+.mySlidesfade {display: none}
 img {vertical-align: middle;}
 
 * {box-sizing:border-box}
@@ -211,7 +213,6 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
 }
-
 
 /* Next & previous buttons */
 .prev, .next {
@@ -303,246 +304,48 @@ img {vertical-align: middle;}
 
 /* -------------------------- cirkler ---------------------------------*/
 
-.container1{
-	opacity: 0.8;
+.cirkel1{
 	height: 115px;
 	width: 115px;
 	background-color:#22A6A5;
 	border-radius: 50%;
 	display: inline-block;
-	margin-left: 125px;
+	margin-left: 110px;
+
 }
 
-.container2{
-	opacity: 0.8;
-	height: 115px;
-	width: 115px;
+.cirkel2{
+	height: 120px;
+	width: 120px;
 	background-color:#99C83E;
 	border-radius: 50%;
 	display: inline-block;
 	margin-left: 15px;
 }
 
-.container3{
-	opacity: 0.8;
-	height: 115px;
-	width: 115px;
+.cirkel3{
+	height: 120px;
+	width: 120px;
 	background-color:#F0C825;
 	border-radius: 50%;
 	display: inline-block;
 	margin-left: 20px;
 }
 
-.container4{
-	opacity: 0.8;
-	height: 115px;
-	width: 115px;
+.cirkel4{
+	height: 120px;
+	width: 120px;
 	background-color:#FD3C11;
 	border-radius: 50%;
 	display: inline-block;
 	margin-left: 25px;
 }
 
-.container5{
-	opacity: 0.8;
-	height: 115px;
-	width: 115px;
+.cirkel5{
+	height: 120px;
+	width: 120px;
 	background-color:#FAD9E8;
 	border-radius: 50%;
 	display: inline-block;
 	margin-left: 30px;
-}
-
-/* -------------------------- billeder i cirkler ---------------------------------*/
-
-.masks{
-opacity: 0.2;
-position: relative;
-left: 10px;
-top:23px;
-}
-
-.paint-palette{
-	opacity: 0.2;
-	position: relative;
-	left: 10px;
-	top:23px;
-}
-
-.hanger{
-	opacity: 0.2;
-	position: relative;
-	left: 10px;
-	top:23px;
-}
-
-.design{
-	opacity: 0.2;
-	position: relative;
-	left: 10px;
-	top:23px;
-}
-
-.cookbook{
-	opacity: 0.2;
-	position: relative;
-	left: 10px;
-	top:23px;
-}
-
-/* -------------------------- tekst i cirklerne ---------------------------------*/
-
-.text-block4{
-position: absolute;
-text-align: center;
-color: black;
-margin-top: 45px;
-margin-left: 24px;
-font-size: 18px;
-font-family: "Montserrat"
-}
-
-.text-block{
-position: absolute;
-text-align: center;
-color: black;
-margin-top: 45px;
-margin-left: 20px;
-font-size: 18px;
-font-family: "Montserrat"
-}
-
-.text-block0{
-position: absolute;
-text-align: center;
-color: black;
-font-weight: 200;
-margin-top: 45px;
-margin-left: 18px;
-font-size: 18px;
-font-family: "Montserrat"
-}
-
-.text-block1{
-position: absolute;
-text-align: center;
-color: black;
-font-weight: 200;
-margin-top: 45px;
-margin-left: 25px;
-font-size: 18px;
-font-family: "Montserrat"
-}
-
-.text-block2{
-position: absolute;
-text-align: center;
-color: black;
-margin-top: 45px;
-margin-left: 3px;
-font-family: "Montserrat"
-}
-
-/* -------------------------- tekst i firkanterne ---------------------------------*/
-
-.text-block6{
-	margin-left: 968px;
-	margin-top: -580px;
-	padding-top: 8px;
-	height: 425px;
-	width: 350px;
-  color: black;
-	font-size: 18px;
-	text-align: center;
-	font-family: "Montserrat"
-}
-
-.text-block7{
-	margin-left: 998px;
-	margin-top: -145px;
-	height: 140px;
-	width: 350px;
-  color: black;
-	font-size: 18px;
-	font-family: "Montserrat";
-}
-
-.text-block8{
-	margin-left: 998px;
-	margin-top: 5px;
-	height: 140px;
-	width: 350px;
-  color: black;
-	font-size: 18px;
-	font-family: "Montserrat";
-}
-
-.text-block9{
-	margin-left: 998px;
-	margin-top: 8px;
-	height: 140px;
-	width: 350px;
-  color: black;
-	font-size: 18px;
-	font-family: "Montserrat";
-}
-/* -------------------------- billeder i firkanterne ---------------------------------*/
-
-.galleri{
-	position: relative;
-	margin-left: 1000px;
-	margin-top: -525px;
-}
-
-.brandts{
-	position: relative;
-	margin-left: 1000px;
-	margin-top: -100px;
-}
-
-.odenseo{
-	position: relative;
-	margin-left: 1000px;
-	margin-top: -100px;
-}
-
-
-/* ----------------------------- footer -----------------------------------------*/
-
-.textinfooteroverskrift1{
-	position: absolute;
-	text-align: left;
-	color: white;
-	margin-top: -180px;
-	margin-left: 150px;
-	font-size: 18px;
-	font-family: "Montserrat"
-}
-.textinfooter{
-	position: absolute;
-	text-align: left;
-	color: white;
-	margin-top: -20px;
-	margin-left: 0px;
-	font-size: 14px;
-	line-height:30px;
-	font-family: "Montserrat"
-}
-.textinfooteroverskrift2{
-	text-align: left;
-	color: white;
-	margin-top: -66px;
-	margin-left: 260px;
-	font-size: 18px;
-	font-family: "Montserrat"
-}
-.textinfooter2{
-	position: absolute;
-	text-align: left;
-	color: white;
-	margin-top: 1px;
-	margin-left: 0px;
-	font-size: 14px;
-	line-height: 30px;
-	font-family: "Montserrat"
 }
