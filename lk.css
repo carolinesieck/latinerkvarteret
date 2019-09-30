@@ -17,7 +17,7 @@ nav {
   align-items: center;
   min-height: 8vh;
   background-color: transparent;
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
 
 }
 
@@ -39,8 +39,6 @@ button {
 
 }
 
-
-
 .logo {
 
   width: 10%;
@@ -60,14 +58,19 @@ button {
   margin-left: -20px;
 }
 .nav-links a{
-  color: black;
+  color: #057E7E;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   margin-right: 20px;
   margin-top: 30px;
+}
 
+
+
+a:hover{
+	text-decoration: underline;
 }
 
 .burger {
@@ -90,27 +93,31 @@ button {
 
 @media screen and (max-width:1020px) {
   .nav-links a{
-    background-color;
+    background-color: red;
     font-size: 11px;
     width: 75%;
 }
+
+
+	.containeralle{
+		align-
+	}
+
 }
 
 @media screen and (max-width:800px) {
   .nav-links a{
-    background-color:;
+    background-color: blue;
     font-size: 11px;
     width: 80%;
 }
 }
-
-
-
 @media screen and (max-width:790px) {
 
   .flag {
     display: none;
   }
+
 
   button {
     display: none;
@@ -147,13 +154,56 @@ button {
   }
 }
 
+/*--------------------------container farvede---------------------------*/
 
-/* ----------slideshow style---------------*/
+.containerblo{
+	background-color: #22A6A5;
+	width: 289px;
+	height: 20px;
+	margin-top: -20px;
+
+}
+
+.containergron{
+	background-color: #99C83E;
+	width: 289px;
+	height: 20px;
+	margin-top: -20px;
+	margin-left: 289px;
+
+}
+
+.containergul{
+	background-color: #F0C825;
+	width: 289px;
+	height: 20px;
+	margin-top: -20px;
+	margin-left: 578px;
+
+}
+.containerrod{
+	background-color: #FD3C11;
+	width: 289px;
+	height: 20px;
+	margin-top: -20px;
+	margin-left: 867px;
+
+}
+
+.containerpink{
+	background-color: #FAD9E8;
+	width: 284px;
+	height: 20px;
+	margin-top: -20px;
+	margin-left: 1156px;
+
+}
 
 
-
-.mySlidesfade {display: none}
+/* -------------------------slideshow style---------------------------*/
 img {vertical-align: middle;}
+
+* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
@@ -161,6 +211,7 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
 }
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -200,22 +251,6 @@ img {vertical-align: middle;}
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: dimgrey;
-}
-
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -238,7 +273,6 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-
 
 
 /* ------------------------------body skrift indhold------------------------*/
@@ -430,7 +464,7 @@ font-family: "Montserrat"
 	width: 350px;
   color: black;
 	font-size: 18px;
-	font-family: "Montserrat"
+	font-family: "Montserrat";
 }
 
 .text-block8{
@@ -440,7 +474,7 @@ font-family: "Montserrat"
 	width: 350px;
   color: black;
 	font-size: 18px;
-	font-family: "Montserrat"
+	font-family: "Montserrat";
 }
 
 .text-block9{
@@ -450,7 +484,7 @@ font-family: "Montserrat"
 	width: 350px;
   color: black;
 	font-size: 18px;
-	font-family: "Montserrat"
+	font-family: "Montserrat";
 }
 /* -------------------------- billeder i firkanterne ---------------------------------*/
 
@@ -470,4 +504,45 @@ font-family: "Montserrat"
 	position: relative;
 	margin-left: 1000px;
 	margin-top: -100px;
+}
+
+
+/* ----------------------------- footer -----------------------------------------*/
+
+.textinfooteroverskrift1{
+	position: absolute;
+	text-align: left;
+	color: white;
+	margin-top: -180px;
+	margin-left: 150px;
+	font-size: 18px;
+	font-family: "Montserrat"
+}
+.textinfooter{
+	position: absolute;
+	text-align: left;
+	color: white;
+	margin-top: -20px;
+	margin-left: 0px;
+	font-size: 14px;
+	line-height:30px;
+	font-family: "Montserrat"
+}
+.textinfooteroverskrift2{
+	text-align: left;
+	color: white;
+	margin-top: -66px;
+	margin-left: 260px;
+	font-size: 18px;
+	font-family: "Montserrat"
+}
+.textinfooter2{
+	position: absolute;
+	text-align: left;
+	color: white;
+	margin-top: 1px;
+	margin-left: 0px;
+	font-size: 14px;
+	line-height: 30px;
+	font-family: "Montserrat"
 }
