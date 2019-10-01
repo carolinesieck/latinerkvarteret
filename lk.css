@@ -30,10 +30,10 @@ width: 3%;
 button {
   float: left;
   padding: 6px 1px;
-  margin-top: -2px;
+  margin-top: -19px;
   margin-right: 50px;
   background: white;
-  font-size: 20px;
+  font-size: 22px;
   border: none;
   cursor: pointer;
 
@@ -212,6 +212,13 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
+.mySlides.fade1{
+	display: none;
+}
+
+.mySlides.fade2{
+	display: none;
+}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -275,10 +282,6 @@ img {vertical-align: middle;}
 }
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 472825da306b3dc1df7e1871093ea3eb0296623e
 /* ------------------------------body skrift indhold------------------------*/
 
 .heading{
@@ -314,7 +317,8 @@ img {vertical-align: middle;}
 	background-color:#22A6A5;
 	border-radius: 50%;
 	display: inline-block;
-	margin-left: 125px;
+	margin-left: 122px;
+	margin-top: 70px;
 }
 
 .container2{
@@ -402,7 +406,7 @@ text-align: center;
 color: black;
 margin-top: 45px;
 margin-left: 24px;
-font-size: 18px;
+font-size: 15px;
 font-family: "Montserrat"
 }
 
@@ -411,8 +415,8 @@ position: absolute;
 text-align: center;
 color: black;
 margin-top: 45px;
-margin-left: 20px;
-font-size: 18px;
+margin-left: 4px;
+font-size: 15px;
 font-family: "Montserrat"
 }
 
@@ -423,7 +427,7 @@ color: black;
 font-weight: 200;
 margin-top: 45px;
 margin-left: 18px;
-font-size: 18px;
+font-size: 15px;
 font-family: "Montserrat"
 }
 
@@ -434,7 +438,7 @@ color: black;
 font-weight: 200;
 margin-top: 45px;
 margin-left: 25px;
-font-size: 18px;
+font-size: 15px;
 font-family: "Montserrat"
 }
 
@@ -443,22 +447,31 @@ position: absolute;
 text-align: center;
 color: black;
 margin-top: 45px;
+font-size: 15px;
 margin-left: 3px;
-font-family: "Montserrat"
+font-family: "Montserrat", sans-serif;
+}
+
+p2{
+
+font-family: "Montserrat", sans-serif;
+font-size: 15px;
+margin-left: 20px;
+
 }
 
 /* -------------------------- tekst i firkanterne ---------------------------------*/
 
 .text-block6{
-	margin-left: 968px;
+	margin-left: 977px;
 	margin-top: -580px;
 	padding-top: 8px;
 	height: 425px;
 	width: 350px;
   color: black;
-	font-size: 18px;
+	font-size: 16.5px;
 	text-align: center;
-	font-family: "Montserrat"
+	font-family: "Montserrat";
 }
 
 .text-block7{
@@ -467,12 +480,8 @@ font-family: "Montserrat"
 	height: 140px;
 	width: 350px;
   color: black;
-	font-size: 18px;
-<<<<<<< HEAD
-	font-family: "Montserrat"
-=======
+	font-size: 16px;
 	font-family: "Montserrat";
->>>>>>> 472825da306b3dc1df7e1871093ea3eb0296623e
 }
 
 .text-block8{
@@ -481,12 +490,9 @@ font-family: "Montserrat"
 	height: 140px;
 	width: 350px;
   color: black;
-	font-size: 18px;
-<<<<<<< HEAD
-	font-family: "Montserrat"
-=======
+	font-size: 16px;
 	font-family: "Montserrat";
->>>>>>> 472825da306b3dc1df7e1871093ea3eb0296623e
+
 }
 
 .text-block9{
@@ -495,12 +501,9 @@ font-family: "Montserrat"
 	height: 140px;
 	width: 350px;
   color: black;
-	font-size: 18px;
-<<<<<<< HEAD
-	font-family: "Montserrat"
-=======
+	font-size: 16px;
 	font-family: "Montserrat";
->>>>>>> 472825da306b3dc1df7e1871093ea3eb0296623e
+
 }
 /* -------------------------- billeder i firkanterne ---------------------------------*/
 
@@ -521,8 +524,6 @@ font-family: "Montserrat"
 	margin-left: 1000px;
 	margin-top: -100px;
 }
-<<<<<<< HEAD
-=======
 
 
 /* ----------------------------- footer -----------------------------------------*/
@@ -564,4 +565,57 @@ font-family: "Montserrat"
 	line-height: 30px;
 	font-family: "Montserrat"
 }
->>>>>>> 472825da306b3dc1df7e1871093ea3eb0296623e
+
+/*----------------------SOME------------------*/
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 24px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: transparent;
+  color: white;
+	margin-left: 250px;
+
+}
+
+/* instagram */
+.fa-instagram {
+  background: transparent;
+  color: white;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 24px;
+  width: 35px;
+	height: 35px;
+	text-decoration: none;
+  border-radius: 50%;
+}
+
+#facebook {
+	margin-left: -50px;
+	margin-top: -60px;
+	font-size: 15px;
+}
+
+#instagram{
+	margin-left: 250px;
+	font-size: 18px;
+	margin-top: -7px;
+}
